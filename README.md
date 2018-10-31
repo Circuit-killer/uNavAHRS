@@ -1,6 +1,8 @@
 # uNavAHRS
 uNav Attitude and Heading Reference System 7 State EKF Arduino Library.
 
+***Developing with the [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) or [LC](https://www.pjrc.com/store/teensylc.html)? Consider buying our [Teensy Motion Backpack](http://bolderflight.com/products/teensy/motion/), which integrates an MPU-9250 and BME-280 into a stackable add-on module, thoughtfully designed to integrate perfectly with the Teensy. Check out all of our wonderfully small and powerful [Teensy Backpacks](http://bolderflight.com/products/teensy/)***
+
 # Description
 The uNav Attitude and Heading Reference System (AHRS) is a 7 state Extended Kalman Filter (EKF) to estimate attitude and heading from IMU data. The 7 states comprise a quaternion and three gyro biases. It uses gyro measurements to propogate the state; accelerometers are used as a measurement update on the pitch and roll channels and magnetometers as a measurement update on the yaw channel to constrain drift.
 
